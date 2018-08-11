@@ -2,4 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: linear-gradient(to right, rgba(59, 46, 177, 0.384) 0%, rgb(45, 29, 118) 100%)
+}
+
+.card {
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 0 5px 6px #9E9E9E;
 }
