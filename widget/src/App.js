@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainCard from './components/MainCard';
 import './App.css';
 
 class App extends Component {
