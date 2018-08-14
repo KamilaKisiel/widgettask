@@ -24,6 +24,9 @@ class MainCard extends Component {
                 <button className='stepForward'>
                 <FontAwesomeIcon icon="step-forward"></FontAwesomeIcon>
                 </button>
+                <button className='heart'>
+                <FontAwesomeIcon icon="heart"></FontAwesomeIcon>
+                </button>
 
                 </div>
             </div>
