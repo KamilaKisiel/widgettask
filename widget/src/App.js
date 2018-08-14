@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import MainCard from './components/MainCard';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faShareAlt, faPlay, faStepBackward } from '@fortawesome/free-solid-svg-icons'
+import { faShareAlt, faPlay, faStepBackward, faStepForward } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
-library.add(faShareAlt, faPlay, faStepBackward);
+library.add(faShareAlt, faPlay, faStepBackward, faStepForward);
 
 class App extends Component {
   render() {
