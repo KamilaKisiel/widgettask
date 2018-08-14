@@ -13,6 +13,7 @@ body {
   position: relative;
   border-radius: 25px;
   box-shadow: 0 5px 6px #9E9E9E;
+  background-color: #9E9E9E;
   
 }
 
@@ -29,4 +30,10 @@ body {
   left: 70px;
   z-index: 1;
   background: linear-gradient (rgba(0,0,0,.87));
+}
+
+.buttonsPanel {
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
 }
