@@ -15,7 +15,9 @@ class MainCard extends Component {
                 <button className='shareButton'>
                 <FontAwesomeIcon icon="share-alt"></FontAwesomeIcon>
                 </button>
-                <button className='previousButton'></button>
+                <button className='previousButton'>
+                <FontAwesomeIcon icon="step-backward"></FontAwesomeIcon>
+                </button>
                 <button className='playButton'>
                 <FontAwesomeIcon icon="play"></FontAwesomeIcon>
                 </button>
