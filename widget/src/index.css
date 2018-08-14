@@ -10,7 +10,6 @@ body {
 }
 
 .card {
-  position: relative;
   border-radius: 25px;
   box-shadow: 0 5px 6px #9E9E9E;
   background-color: #9E9E9E;
@@ -24,14 +23,22 @@ body {
   border-top-right-radius: 25px;
 }
 
+.imgSection {
+  position: relative;
+}
+
 .songTitle {
   position: absolute;
-  top: 195px;
-  left: 70px;
+  bottom: 0;
   z-index: 1;
+  width: 100%;
   background: rgba(0, 0, 0, 0.4);
   color: white
 }
+ h1 {
+   padding: none;
+   font-size: 1em
+ }
 
 .buttonsPanel {
   padding: 2em;
