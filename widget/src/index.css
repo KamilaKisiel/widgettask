@@ -29,11 +29,17 @@ body {
   top: 195px;
   left: 70px;
   z-index: 1;
-  background: linear-gradient (rgba(0,0,0,.87));
+  background: rgba(0, 0, 0, 0.4);
+  color: white
 }
 
 .buttonsPanel {
   padding: 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1em;
+  border-radius: 50%
 }
