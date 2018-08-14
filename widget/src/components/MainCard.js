@@ -12,19 +12,19 @@ class MainCard extends Component {
                     <p>Still Don't Know</p>
                 </div>
                 <div className='buttonsPanel'>
-                <button className='share'>
+                <button className='btn share'>
                 <FontAwesomeIcon icon="share-alt"></FontAwesomeIcon>
                 </button>
-                <button className='stepBackward'>
+                <button className='btn stepBackward'>
                 <FontAwesomeIcon icon="step-backward"></FontAwesomeIcon>
                 </button>
-                <button className='playButton'>
+                <button className='btn playButton'>
                 <FontAwesomeIcon icon="play"></FontAwesomeIcon>
                 </button>
-                <button className='stepForward'>
+                <button className='btn stepForward'>
                 <FontAwesomeIcon icon="step-forward"></FontAwesomeIcon>
                 </button>
-                <button className='heart'>
+                <button className='btn heart'>
                 <FontAwesomeIcon icon="heart"></FontAwesomeIcon>
                 </button>
 
