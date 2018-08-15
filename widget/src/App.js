@@ -13,7 +13,7 @@ import {
   faVolumeUp,
   faBars
 } from '@fortawesome/free-solid-svg-icons'
-import './App.css';
+
 
 library.add(
   faShareAlt, 

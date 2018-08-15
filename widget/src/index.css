@@ -3,6 +3,7 @@ body {
   padding: 0;
   height: 100vh;
   font-family: Arial, sans-serif;
+  text-align: center;
   background: url("./images/bckground.png") no-repeat center;
   background-size: cover;
   display: flex;
