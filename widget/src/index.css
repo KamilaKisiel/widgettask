@@ -40,7 +40,9 @@ body {
 .controlIcons {
   display: flex;
   justify-content: space-evenly;
-  width: 50%
+  width: 50%;
+  padding-top: 1em;
+  padding-bottom: 1em
 }
 
 .songTitle {
@@ -49,7 +51,9 @@ body {
   z-index: 1;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
-  color: white
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em
 }
  h3 {
    padding: none;
