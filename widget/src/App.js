@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MainCard from './components/MainCard';
+import Player from './components/Player';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { 
   faShareAlt, 
@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MainCard></MainCard>
+        <Player></Player>
       </div>
     );
   }

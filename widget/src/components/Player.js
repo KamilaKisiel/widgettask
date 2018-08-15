@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image from '../images/icona-pop.jpg';
 
-class MainCard extends Component {
+class Player extends Component {
     render() {
         return (
             <div className='card'>
@@ -54,4 +54,4 @@ class MainCard extends Component {
     }
 }
 
-export default MainCard;
+export default Player;
