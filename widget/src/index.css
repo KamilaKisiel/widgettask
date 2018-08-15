@@ -27,12 +27,20 @@ body {
   
 }
 
-.controlPanel {
+.topPanel {
   position: absolute;
   top: 0;
   z-index: 1;
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-around;
+}
+
+.controlIcons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%
 }
 
 .songTitle {

@@ -7,16 +7,13 @@ class MainCard extends Component {
         return (
             <div className='card'>
                 <div className='imgSection'>
-                    <div className='controlPanel'>
-                        <button className='repeatIcon'>
+                    <div className='topPanel'>
+                        <div className='controlIcons'>
                             <FontAwesomeIcon icon="retweet"></FontAwesomeIcon>
-                        </button>
-                        <button className='randomIcon'>
                             <FontAwesomeIcon icon="random"></FontAwesomeIcon>
-                        </button>
-                        <button className='redoIcon'>
                             <FontAwesomeIcon icon="redo"></FontAwesomeIcon>
-                        </button>
+                        </div>
+
                     </div>
                     <img className='icona' alt='icona pop' src={image} />
                     <div className='songTitle'>
