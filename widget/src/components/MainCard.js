@@ -27,22 +27,22 @@ class MainCard extends Component {
                 </div>
                 <div className='clearFloat'></div>
                 <div className='buttonsPanel'>
-                    <button className='btn volumeBtn'>
+                    <button className='volumeBtn'>
                     <FontAwesomeIcon icon="volume-up"></FontAwesomeIcon>
                     </button>                    
-                    <button className='btn share'>
+                    <button className='btn share smallBtn'>
                         <FontAwesomeIcon icon="share-alt"></FontAwesomeIcon>
                     </button>
-                    <button className='btn stepBackward'>
+                    <button className='btn stepBackward bigBtn'>
                         <FontAwesomeIcon icon="step-backward"></FontAwesomeIcon>
                     </button>
-                    <button className='btn playButton'>
+                    <button className='btn playButton bigBtn'>
                         <FontAwesomeIcon icon="play"></FontAwesomeIcon>
                     </button>
-                    <button className='btn stepForward'>
+                    <button className='btn stepForward bigBtn'>
                         <FontAwesomeIcon icon="step-forward"></FontAwesomeIcon>
                     </button>
-                    <button className='btn heart'>
+                    <button className='btn heart smallBtn'>
                         <FontAwesomeIcon icon="heart"></FontAwesomeIcon>
                     </button>
 
