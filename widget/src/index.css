@@ -40,6 +40,13 @@ body {
   border-top-right-radius: 25px;
 }
 
+.menu {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: rgb(132, 136, 159)
+}
+
 .controlIcons {
   display: flex;
   justify-content: space-evenly;
@@ -48,6 +55,7 @@ body {
   padding-bottom: 1em;
   color: white
 }
+
 
 .songTitle {
   position: absolute;

@@ -13,7 +13,9 @@ class MainCard extends Component {
                             <FontAwesomeIcon icon="random"></FontAwesomeIcon>
                             <FontAwesomeIcon icon="redo"></FontAwesomeIcon>
                         </div>
-
+                        <div className='menu'>
+                        <FontAwesomeIcon icon="bars"></FontAwesomeIcon>
+                        </div>
                     </div>
                     <img className='icona' alt='icona pop' src={image} />
                     <div className='songTitle'>
@@ -28,8 +30,8 @@ class MainCard extends Component {
                 <div className='clearFloat'></div>
                 <div className='buttonsPanel'>
                     <button className='volumeBtn'>
-                    <FontAwesomeIcon icon="volume-up"></FontAwesomeIcon>
-                    </button>                    
+                        <FontAwesomeIcon icon="volume-up"></FontAwesomeIcon>
+                    </button>
                     <button className='btn share smallBtn'>
                         <FontAwesomeIcon icon="share-alt"></FontAwesomeIcon>
                     </button>
