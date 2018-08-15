@@ -2,8 +2,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: sans-serif;
-  background: linear-gradient(to right, rgba(50, 30, 82, 0.651) 0%, rgba(131, 139, 185, 0.897)100%);  
+  font-family: Arial, sans-serif;
+  background: url("./images/bckground.png") no-repeat center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +12,7 @@ body {
 
 .card {
   border-radius: 25px;
-  box-shadow: 0 5px 6px #9E9E9E;
-  background-color: #9E9E9E;
-  
+  background-color:rgb(238, 239, 245);
 }
 
 .icona {
@@ -25,6 +24,15 @@ body {
 
 .imgSection {
   position: relative;
+  
+}
+
+.controlPanel {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .songTitle {
@@ -35,9 +43,15 @@ body {
   background: rgba(0, 0, 0, 0.4);
   color: white
 }
- h1 {
+ h3 {
    padding: none;
-   font-size: 1em
+   margin: 0.5em;
+   letter-spacing: 0;
+   /* font: 1em bold; */
+ }
+
+ p {
+   margin: 0;
  }
 
 .buttonsPanel {
