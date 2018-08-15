@@ -9,7 +9,8 @@ import {
   faHeart, 
   faRandom, 
   faRedo, 
-  faRetweet
+  faRetweet,
+  faVolumeUp
 } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
@@ -21,7 +22,8 @@ library.add(
   faHeart,
   faRandom,
   faRedo,
-  faRetweet
+  faRetweet,
+  faVolumeUp
 );
 
 class App extends Component {

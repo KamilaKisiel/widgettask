@@ -21,7 +21,15 @@ class MainCard extends Component {
                         <p>Still Don't Know</p>
                     </div>
                 </div>
+                <div className='volume'>
+                    <div className='volumeProgress volumeOne'>.</div>
+                    <div className='volumeProgress volumeTwo'>.</div>
+                </div>
+                <div className='clearFloat'></div>
                 <div className='buttonsPanel'>
+                    <button className='btn volumeBtn'>
+                    <FontAwesomeIcon icon="volume-up"></FontAwesomeIcon>
+                    </button>                    
                     <button className='btn share'>
                         <FontAwesomeIcon icon="share-alt"></FontAwesomeIcon>
                     </button>
