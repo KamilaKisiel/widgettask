@@ -188,21 +188,21 @@ body {
   float: left;
   text-align: left;
   width: 80%;
-  margin-left: -1.5em;
+  padding-left: 1em;
   color: rgb(96, 85, 143);
 }
 
 li {
-  padding-bottom: 1em
+  padding-bottom: 1em;
 }
 
 .listItem {
   border-bottom: solid 0.2em rgb(211, 213, 222);
-  
+  position: relative;
 }
 
 .songList {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .songDuration {
@@ -211,4 +211,27 @@ li {
 
 .songTitle {
   font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+.songAction {
+  position: absolute;
+  top: 0.2em;
+  right: -0.5em;  
+}
+
+.songAction .btn {
+  background: none;
+}
+
+.scrollBar {
+  position: absolute;
+  right: 1.3em;
+  top: 9.2em;
+  height: 3.8em;
+  width: 0.4em;
+  background-color: rgb(223, 223, 231);
+  color: rgb(223, 223, 231);
+  border-radius: 0.2em;
 }
