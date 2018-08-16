@@ -35,7 +35,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      route: 'player'
+      route: 'player',
+      toggle: true
     }
   }
 
@@ -43,11 +44,19 @@ class App extends Component {
     this.setState({route: route})
   }
 
+  onPlayerToggle = () => {
+    const currentState = this.state.toggle;
+    this.setState({toggle: !currentState})
+  }
+
   render() {
     return (
       <div className="App">
         {this.state.route === 'player'
-          ? <Player onRouteChange={this.onRouteChange}/>
+          ? <Player 
+          onRouteChange={this.onRouteChange}
+          onPlayerToggle={this.onPlayerToggle}
+          />
           : <Playlist onRouteChange={this.onRouteChange}/>
         }
       </div>

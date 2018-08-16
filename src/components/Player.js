@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image from '../images/icona-pop.jpg';
 
-const Player = ({ onRouteChange }) =>  {
+const Player = ({ onRouteChange, onPlayerToggle }) =>  {
     return (
         <div className='card'>
             <div className='imgSection'>
