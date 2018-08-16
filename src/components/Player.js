@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import image from '../images/icona-pop.jpg';
 
@@ -20,9 +20,9 @@ const Player = ({ onRouteChange }) =>  {
                     </div>
                 </div>
                 <img className='icona' alt='icona pop' src={image} />
-                <div className='songTitle'>
-                    <p>Icona Pop</p>
-                    <p>Still Don't Know</p>
+                <div className='nowPlaying'>
+                    <p className='artist'>Icona Pop</p>
+                    <p className='title'>Still Don't Know</p>
                 </div>
             </div>
             <div className='volume'>
