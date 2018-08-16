@@ -98,6 +98,7 @@ const Playlist = ({ onRouteChange }) => {
                 </ul>
             </div>
             <div className='scrollBar'>.</div>
+            <div className='bottomShadow'>.</div>
         </div>
     );
 }
