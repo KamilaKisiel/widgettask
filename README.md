@@ -1,1 +1,2 @@
-## A widget task for music player 
+## A widget for music player 
+### React based project using create-react-app
